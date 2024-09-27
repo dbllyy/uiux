@@ -55,7 +55,7 @@
                 <i class="ti-settings text-primary"></i>
                 Settings
               </a>
-              <a class="dropdown-item">
+              <a class="dropdown-item" href="../auth/login.php">
                 <i class="ti-power-off text-primary"></i>
                 Logout
               </a>
@@ -235,6 +235,7 @@
   <!-- Custom js for this page-->
   <script src="../js/dashboard.js"></script>
   <script src="../js/Chart.roundedBarCharts.js"></script>
+  <script src="../js/logout.js"></script>
   <!-- End custom js for this page-->
 </body>
 
