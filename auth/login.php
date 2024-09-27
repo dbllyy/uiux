@@ -17,16 +17,16 @@
             </form>
         </div>
 
+        <div class="login">
+            <form action="login.php" method="POST">
+                <label for="chk" aria-hidden="true">Login Di Sini</label>
+                <input type="text" name="user" placeholder="User" required="">
+                <input type="password" name="pswd" placeholder="Password" required="">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
 
-			<div class="login">
-				<form>
-					<label for="chk" aria-hidden="true">Login Di Sini</label>
-					<input type="user" name="user" placeholder="User" required="">
-					<input type="password" name="pswd" placeholder="Password" required="">
-					<button>Login</button>
-				</form>
-			</div>
-	    </div>
 
   <script src="../js/logout.js"></script>
 
